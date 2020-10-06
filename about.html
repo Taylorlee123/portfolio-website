@@ -1,18 +1,36 @@
-<!--Lesson 1.4-->
 <!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Taylor Salzman" />
-    <meta name="desicription" content="Taylor Salzman UX Design Portfolio" />
+    <meta name="description" content="Taylor Salzman UX Design Portfolio" />
     <link href="img/favicon/favicon-32x32.ico.png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Who is Taylor Salzman</title>
   </head>
-  <body>
+  <body class="aboutpage">
     <header>
       <div>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.69 85.58">
+          <svg
+            id="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 202.69 85.58"
+          >
             <g id="Layer_2" data-name="Layer 2">
               <g id="Layer_1-2" data-name="Layer 1">
                 <path
@@ -67,15 +85,6 @@
         </nav>
       </div>
     </header>
-    <div>
-      <div>Hero</div>
-    </div>
-    <div>
-      <div>Work/Projects</div>
-    </div>
-    <div>
-      <div>Footer</div>
-    </div>
     <main>
       <div>
         <div>
@@ -89,7 +98,11 @@
               srcset="img/profile/About Image 600px-min.jpg"
               media="(max-width:767px"
             />
-            <img src="img/profile/About Image 1200px-min.jpg" alt="My Face" />
+            <img
+              id="profile"
+              src="img/profile/About Image 1200px-min.jpg"
+              alt="My Face"
+            />
           </picture>
           <div>
             <div>
@@ -123,7 +136,7 @@
                 those looking for help and those looking to help by better
                 organizing and presenting resources that are already available.
               </p>
-              <a href="files/cv.pdf" download target="_blank"
+              <a href="files/cv.pdf" download target="_blank" class="button"
                 >Download My CV
               </a>
             </div>
@@ -183,11 +196,14 @@
           email?
         </p>
         <div>
-          <a href="mailto:salzmantaylor@gmail.com">Email Me</a>
+          <a class="button contact" href="mailto:salzmantaylor@gmail.com"
+            >Email Me</a
+          >
         </div>
         <div>
           <a href="http://www.linkedin.com/in/taylorlsalzman/" target="_blank">
             <svg
+              class="social link"
               height="100%"
               style="
                 fill-rule: evenodd;
@@ -196,7 +212,7 @@
                 stroke-miterlimit: 2;
               "
               version="1.1"
-              viewBox="0 0 512 512"
+              viewbox="0 0 512 512"
               width="100%"
               xml:space="preserve"
               xmlns="http://www.w3.org/2000/svg"
@@ -234,10 +250,11 @@
           </a>
           <a href="http://www.behance.net/taylorsalzman" target="blank">
             <svg
+              class="social link"
               height="512px"
               style="enable-background: new 0 0 512 512"
               version="1.1"
-              viewBox="0 0 512 512"
+              viewbox="0 0 512 512"
               width="512px"
               xml:space="preserve"
               xmlns="http://www.w3.org/2000/svg"

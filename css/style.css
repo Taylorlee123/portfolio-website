@@ -1,0 +1,99 @@
+/*
+Colors used:
+Background:#ffffff
+Text: #000000
+Primary: #008080 Shade: #006666 Tint: #329999
+Secondary: #696969
+*/
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bree Serif", serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+h1 {
+  font-size: 2.75em;
+}
+h2 {
+  font-size: 2.25em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.36em;
+}
+#profile {
+  width: 300px;
+  height: auto;
+}
+#logo {
+  width: 150px;
+  height: auto;
+}
+#wildfired-mockup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+img {
+  width: 100%;
+}
+a {
+  font-family: "Bree Serif";
+  font-weight: 400;
+  color: #008080;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #008080;
+  text-decoration: underline;
+}
+a:visited {
+  color: #696969;
+}
+a:active {
+  color: #329999;
+}
+.button {
+  display: inline-block;
+  background-color: #008080;
+  color: #000000;
+  font-family: "Bree Serif";
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #006666;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8s;
+  text-decoration: none;
+}
+.button.contact {
+  background-color: transparent;
+  color: #008080;
+  text-transform: uppercase;
+  border: 2px solid #008080;
+}
+.button.contact:hover {
+  background-color: #008080;
+  color: #ffffff;
+}
+.social.link {
+  margin: 5px;
+  width: 8.33%;
+  height: auto;
+}
