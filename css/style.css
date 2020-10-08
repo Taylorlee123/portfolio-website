@@ -67,10 +67,10 @@ a:visited {
 a:active {
   color: #329999;
 }
-.button {
+a.button {
   display: inline-block;
   background-color: #008080;
-  color: #000000;
+  color: #ffffff;
   font-family: "Bree Serif";
   font-weight: 400;
   padding: 10px;
@@ -78,17 +78,17 @@ a:active {
   border-bottom: 2px solid #006666;
   transition: 0.2s opacity;
 }
-.button:hover {
+a.button:hover {
   opacity: 0.8s;
   text-decoration: none;
 }
-.button.contact {
+a.button.contact {
   background-color: transparent;
   color: #008080;
   text-transform: uppercase;
   border: 2px solid #008080;
 }
-.button.contact:hover {
+a.button.contact:hover {
   background-color: #008080;
   color: #ffffff;
 }
