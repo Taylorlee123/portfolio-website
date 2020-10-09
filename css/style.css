@@ -33,12 +33,44 @@ h3 {
 h4 {
   font-size: 1.36em;
 }
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  position: fixed;
+}
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-family: "Bree Serif";
+  font-weight: 400;
+  color: black;
+}
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #696969;
+}
 #profile {
   width: 300px;
   height: auto;
 }
 #logo {
-  width: 150px;
+  max-width: 250px;
   height: auto;
 }
 #wildfired-mockup {
@@ -46,6 +78,9 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+#hero h1 {
+  text-align: center;
 }
 img {
   width: 100%;
@@ -95,5 +130,8 @@ a.button.contact:hover {
 .social.link {
   margin: 5px;
   width: 36px;
-  height: 39px;
+  height: 36px;
+}
+#copyright {
+  font-size: 10px;
 }

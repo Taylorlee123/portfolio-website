@@ -24,7 +24,7 @@
   </head>
   <body class="homepage">
     <header>
-      <div>
+      <div class="container">
         <div>
           <svg
             id="logo"
@@ -85,8 +85,8 @@
         </nav>
       </div>
     </header>
-    <main>
-      <div>
+    <main class="container">
+      <div id="hero">
         <h1>
           Hi my name is Taylor.
           <span>
@@ -99,40 +99,42 @@
           using empathy and data
         </p>
       </div>
-      <div>
+      <div id="work">
         <div>
           <h2>My Work</h2>
         </div>
-        <div>
-          <picture>
-            <source
-              srcset="img/wildfired/HP-Wildfired-600px-min.jpg"
-              media="(max-width:767px)"
-            />
-            <img
-              id="wildfired-mockup"
-              src="img/wildfired/HP-Wildfired-1200px-min.jpg"
-              alt="My Image"
-            />
-          </picture>
-        </div>
-        <div>
-          <h3>Wildfired UX Case Study</h3>
-          <p>
-            Wildfired is a mobile application designed to aid people in areas
-            prone to wildfires using fire trajectory prediciton, curated
-            resources and notifications.
-          </p>
-          <p>
-            Prototype created using Adobe XD, Illustrator, and Photoshop
-            <span
-              ><a href="wildfired-pp.html" class="button">Read More</a></span
-            >
-          </p>
+        <div id="wf-hp">
+          <div>
+            <picture>
+              <source
+                srcset="img/wildfired/HP-Wildfired-600px-min.jpg"
+                media="(max-width:767px)"
+              />
+              <img
+                id="wildfired-mockup"
+                src="img/wildfired/HP-Wildfired-1200px-min.jpg"
+                alt="My Image"
+              />
+            </picture>
+          </div>
+          <div class="row">
+            <h3>Wildfired UX Case Study</h3>
+            <p>
+              Wildfired is a mobile application designed to aid people in areas
+              prone to wildfires using fire trajectory prediciton, curated
+              resources and notifications.
+            </p>
+            <p>
+              Prototype created using Adobe XD, Illustrator, and Photoshop
+              <p
+                ><a href="wildfired-pp.html" class="button">Read More</a></p
+              >
+            </p>
+          </div>
         </div>
       </div>
     </main>
-    <footer id="contact">
+    <footer id="contact" class="container">
       <div>
         <h2>Want to work together?</h2>
         <p>
@@ -248,7 +250,7 @@
             </svg>
           </a>
         </div>
-        <p>Copyright TAYLOR SALZMAN 2020</p>
+        <p id="copyright">Copyright TAYLOR SALZMAN 2020</p>
       </div>
     </footer>
   </body>
