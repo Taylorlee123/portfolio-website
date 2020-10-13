@@ -38,6 +38,13 @@ header {
   text-align: center;
   padding: 10px 0px;
   position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#main {
+  padding-top: 170px;
 }
 .container {
   padding: 0 15px;
@@ -45,7 +52,6 @@ header {
 .row {
   margin: 25px 0;
 }
-
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -59,7 +65,19 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-family: "Bree Serif";
   font-weight: 400;
-  color: black;
+  color: #008080;
+  text-decoration: none;
+}
+nav > ul > li > a:hover,
+a:focus {
+  color: #006666;
+  text-decoration: underline;
+}
+nav > ul > li > a:visited {
+  color: #696969;
+}
+nav > ul > li > a:active {
+  color: #329999;
 }
 #work .row {
   padding-bottom: 25px;
