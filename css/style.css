@@ -60,14 +60,6 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
 }
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-family: "Bree Serif";
-  font-weight: 400;
-  color: #008080;
-  text-decoration: none;
-}
 nav > ul > li > a:hover,
 a:focus {
   color: #006666;
@@ -78,6 +70,14 @@ nav > ul > li > a:visited {
 }
 nav > ul > li > a:active {
   color: #329999;
+}
+nav > ul > li > a.nav-items {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-family: "Bree Serif";
+  font-weight: 400;
+  color: #008080;
+  text-decoration: none;
 }
 #work .row {
   padding-bottom: 25px;
@@ -132,7 +132,7 @@ a.button {
   transition: 0.2s opacity;
 }
 a.button:hover {
-  opacity: 0.8s;
+  opacity: 0.8;
   text-decoration: none;
 }
 a.button.contact {
