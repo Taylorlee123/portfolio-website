@@ -38,6 +38,7 @@ header {
   text-align: center;
   padding: 10px 0px;
   position: fixed;
+  top: 0;
   width: 100%;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
@@ -152,4 +153,20 @@ a.button.contact:hover {
 }
 #copyright {
   font-size: 10px;
+}
+@media only screen and (min-width: 640px) {
+  .logo {
+    float: left;
+    text-align: unset;
+    padding: 20px 0 15px;
+  }
+  nav > ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
 }
