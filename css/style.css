@@ -50,6 +50,9 @@ header {
 .container {
   padding: 0 15px;
 }
+#text-padding {
+  padding: 0 5%;
+}
 .row {
   margin: 25px 0;
 }
@@ -89,6 +92,7 @@ nav > ul > li > a.nav-items {
   height: auto;
 }
 #logo {
+  width: 150px;
   max-width: 250px;
   height: auto;
 }
@@ -97,6 +101,9 @@ nav > ul > li > a.nav-items {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+#profile-pic {
+  padding: 0 5%;
 }
 #hero h1 {
   text-align: center;
@@ -154,16 +161,43 @@ a.button.contact:hover {
 #copyright {
   font-size: 10px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+}
 @media only screen and (min-width: 640px) {
   .logo {
-    float: left;
     text-align: unset;
-    padding: 20px 0 15px;
+    padding: 20px 70px 15px;
+    float: left;
   }
   nav > ul {
     width: auto;
     float: right;
-    margin-top: 5px;
+    margin-top: 45px;
+    padding-right: 70px;
+  }
+  #hero {
+    text-align: center;
+  }
+  #hero spam {
+    display: block;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-3 {
+    width: 25%;
   }
 }
 @media only screen and (min-width: 1024px) {
