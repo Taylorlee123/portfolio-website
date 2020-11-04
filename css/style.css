@@ -5,6 +5,9 @@ Text: #000000
 Primary: #008080 Shade: #006666 Tint: #329999
 Secondary: #696969
 */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -101,6 +104,14 @@ nav > ul > li > a.nav-items {
 }
 .navtoggle.responsive li {
   display: block;
+  padding: 10px 0;
+  border-top: 1px solid #696969;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 #work .row {
   padding-bottom: 25px;
