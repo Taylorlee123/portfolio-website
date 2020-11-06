@@ -106,6 +106,7 @@ nav > ul > li > a.nav-items {
   display: block;
   padding: 10px 0;
   border-top: 1px solid #696969;
+  text-align: center;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
