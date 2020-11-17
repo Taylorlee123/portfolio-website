@@ -57,11 +57,12 @@ header {
   padding: 0 5%;
 }
 .maxWidth-container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .row {
   margin: 25px 0;
+  padding: 0 10px;
 }
 nav > ul {
   list-style-type: none;
@@ -119,6 +120,9 @@ nav > ul > li > a.nav-items {
   border-bottom: 1px solid #696969;
   max-width: 900px;
   margin: 0 auto;
+}
+#overview .row {
+  margin: o auto;
 }
 #profile {
   width: 300px;
@@ -194,6 +198,10 @@ a.button.contact:hover {
 #copyright {
   font-size: 10px;
 }
+#role {
+  margin: 0 auto;
+  display: inline-block;
+}
 .row::after {
   content: "";
   clear: both;
@@ -226,17 +234,26 @@ a.button.contact:hover {
   #hero spam {
     display: block;
   }
+  .center-header {
+    text-align: center;
+  }
   .col-md-12 {
     width: 100%;
   }
   .col-md-6 {
     width: 50%;
+    padding: 0 10px;
   }
   .col-md-4 {
     width: 33.33%;
   }
   .col-md-3 {
     width: 25%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
   .navtoggle li:not(:last-child) {
     display: inline-block;
