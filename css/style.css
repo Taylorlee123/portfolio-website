@@ -47,6 +47,11 @@ header {
   -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
+b {
+  font-size: 18px;
+  font-weight: 400;
+  color: #006666;
+}
 #main {
   padding-top: 80px;
 }
@@ -62,7 +67,10 @@ header {
 }
 .row {
   margin: 25px 0;
-  padding: 0 10px;
+}
+.remove-list-style {
+  list-style-type: none;
+  padding: 0;
 }
 nav > ul {
   list-style-type: none;
@@ -118,7 +126,7 @@ nav > ul > li > a.nav-items {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #696969;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 #overview .row {
@@ -147,6 +155,9 @@ nav > ul > li > a.nav-items {
 }
 img {
   width: 100%;
+}
+.fab {
+  padding-right: 10px;
 }
 a {
   font-family: "Bree Serif";
@@ -185,6 +196,7 @@ a.button.contact {
   color: #008080;
   text-transform: uppercase;
   border: 2px solid #008080;
+  margin-bottom: 10px;
 }
 a.button.contact:hover {
   background-color: #008080;
@@ -207,8 +219,14 @@ a.button.contact:hover {
   clear: both;
   display: table;
 }
+.col- {
+  padding: 0 10px;
+}
 [class*="col-"] {
   float: left;
+}
+.cs-image-spacing {
+  padding: 10px 0;
 }
 @media only screen and (min-width: 640px) {
   header {
@@ -218,6 +236,9 @@ a.button.contact:hover {
     text-align: unset;
     padding: 20px 70px 15px;
     float: left;
+  }
+  .cs-image-spacing {
+    padding: 30px 0;
   }
   nav > ul > li {
     display: inline-block;
@@ -234,15 +255,16 @@ a.button.contact:hover {
   #hero spam {
     display: block;
   }
-  .center-header {
-    text-align: center;
-  }
   .col-md-12 {
     width: 100%;
   }
   .col-md-6 {
     width: 50%;
-    padding: 0 10px;
+    /* padding: 0 10px; */
+  }
+  .center-header {
+    text-align: center;
+    padding: 5% 0;
   }
   .col-md-4 {
     width: 33.33%;
