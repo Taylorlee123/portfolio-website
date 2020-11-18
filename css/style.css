@@ -70,7 +70,8 @@ b {
 }
 .remove-list-style {
   list-style-type: none;
-  padding: 0;
+  padding: 0 10px;
+  text-align: center;
 }
 nav > ul {
   list-style-type: none;
@@ -152,6 +153,9 @@ nav > ul > li > a.nav-items {
 }
 #hero h1 {
   text-align: center;
+}
+#role-text-padding {
+  padding: 5% 0;
 }
 img {
   width: 100%;
