@@ -66,11 +66,15 @@ b {
   margin: 0 auto;
 }
 .row {
-  margin: 25px 0;
+  margin: 25px 0px;
+}
+.text-padding {
+  padding: 0 5%;
 }
 .remove-list-style {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
+  text-align: center;
 }
 nav > ul {
   list-style-type: none;
